@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My jQuery Mobile Site</title>
+
+  <!-- jQuery & jQuery Mobile CDN -->
+  <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+  <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+  <style>
+    .custom-welcome {
+      text-align: center;
+      padding: 50px 10px;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Home Page -->
+<div data-role="page" id="home">
+  <div data-role="header">
+    <h1>Home</h1>
+  </div>
+
+  <div role="main" class="ui-content custom-welcome">
+    <h2>Welcome to My Mobile Site!</h2>
+    <a href="#about" class="ui-btn ui-corner-all ui-shadow ui-btn-b">Go to About</a>
+  </div>
+
+  <div data-role="footer">
+    
+  </div>
+</div>
+
+<!-- About Page -->
+<div data-role="page" id="about">
+  <div data-role="header">
+    <h1>About</h1>
+  </div>
+
+  <div role="main" class="ui-content">
+    <p>This is a sample jQuery Mobile page </p>
+    <a href="#home" class="ui-btn ui-corner-all ui-shadow">Back to Home</a>
+  </div>
+
+  <div data-role="footer">
+    
+  </div>
+</div>
+
+</body>
+</html>

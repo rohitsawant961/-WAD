@@ -1,0 +1,18 @@
+1. check for node 
+   node -v
+   npm -v
+
+2.Install Angular CLI
+   npm install -g @angular/cli
+
+3.Open project directory
+
+4.install dependencies(package.json)
+   npm install
+
+5.Run Angular App
+   ng serve
+  or ng serve --port 4200
+
+6.Open in Browser
+   http://localhost:4200
